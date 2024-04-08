@@ -11,19 +11,28 @@ body {
 
 table {
     margin: auto; /* Center the table */
-    width: 100%;
-    max-width: 600px; /* Prevent the table from becoming too wide */
+    width: 90%; /* Full width of the parent element */
     border-collapse: collapse;
     table-layout: fixed;
+    overflow-y: auto; /* Adds a vertical scrollbar if needed */
 }
 
 td, th {
     border: 1px solid white; 
     padding: 10px; 
     word-wrap: break-word;
+    width: 100%; /* Full width of the parent element */
 }
 
 h1 {
     color: #7bfbde;
     text-align: center;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 90vh; /* Adjust as needed */
+    overflow-y: auto; /* Adds a vertical scrollbar if needed */
 }
