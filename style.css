@@ -36,3 +36,8 @@ h1 {
     max-height: 90vh; /* Adjust as needed */
     overflow-y: auto; /* Adds a vertical scrollbar if needed */
 }
+
+.new-line {
+    display: block;
+    margin: 10px 0; /* Adjust as needed */
+}
