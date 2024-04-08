@@ -1,13 +1,5 @@
-# Web Starter
+# Dawson's Vinyl List
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-starter)
+An ongoing list of all the vinyl records I have collected as well as my wish list for vinyl I would like to collect in the future.
 
-
-> Computers are dumb. Humans make them smart.
-
-Starter (boilerplate) for all future projects.
-
-## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
+![Vinyl Record Spinning](Vinyl.gif)
