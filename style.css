@@ -1,9 +1,29 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
     background: black;
     color: white;
     font-family: "Montserrat", sans-serif;
 }
 
+table {
+    margin: auto; /* Center the table */
+    width: 100%;
+    max-width: 600px; /* Prevent the table from becoming too wide */
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td, th {
+    border: 1px solid white; 
+    padding: 10px; 
+    word-wrap: break-word;
+}
+
 h1 {
     color: #7bfbde;
+    text-align: center;
 }
